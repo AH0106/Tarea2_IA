@@ -4,8 +4,7 @@ Se ocuparan 2 datasets diferentes para la pregunta 1 y la pregunta 2, respectiva
 
 
 Para la pregunta 1, el dataset a utilizar sera:
-https://www.kaggle.com/datasets/bahramjannesarr/goodreads-book-datasets-10m
-
+https://www.kaggle.com/datasets/saichaitanyareddyai/spotify-tracks-dataset-audio-features
 
 Para la pregunta 2, el dataset a utilizar sera:
 https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17
@@ -19,7 +18,7 @@ matplotlib.pyplot
 seaborn
 
 
-Este proyecto contiene el análisis exploratorio, preprocesamiento y modelado de datos para dos conjuntos de datos: SDSS17 (Clasificación Estelar de Objetos Celestiales) y Goodreads (Análisis de Libros y Reseñas).
+Este proyecto contiene el análisis exploratorio, preprocesamiento y modelado de datos para dos conjuntos de datos: SDSS17 (Clasificación Estelar de Objetos Celestiales) y Spotify.
 
 Requisitos Previos
 
@@ -68,9 +67,9 @@ Ubicación de los Datos (Datasets)
 
 ├── data/
 │   ├── sdss17.csv         # Conjunto de datos de Clasificación Estelar SDSS17
-│   └── goodreads.csv      # Conjunto de datos de Libros de Goodreads
+│   └── spotify.csv      # Conjunto de datos de spotify
 ├── notebooks/
-│   └── analisis_sdss17_goodreads.ipynb
+│   └── tarea2.ipynb
 ├── requirements.txt
 └── README.md
 
@@ -86,4 +85,3 @@ Matplotlib & Seaborn: Visualización estática de datos y gráficos exploratorio
 Scikit-Learn: Algoritmos de machine learning, preprocesamiento y métricas de evaluación.
 
 JupyterLab / Notebook: Entorno interactivo de desarrollo.
-
