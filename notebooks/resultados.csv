@@ -1,0 +1,2 @@
+escenario,semilla,enfoque,config,etapa,n_etiquetas,f1_macro,accuracy,precision_pseudo,cobertura
+A_10,42,logistica_supervisada,C=1.0,cv,1200,0.0,0.0,,
