@@ -12,9 +12,9 @@ El objetivo es comparar cuánto cambia el desempeño de regresión logística y 
 
 ## 2. Verificar la partición y las etiquetas conocidas
 
-**Estado actual.** El notebook separa entrenamiento y prueba en proporción 80/20 con estratificación. En `crear_escenarios`, la fracción solicitada corresponde al **segundo** conjunto de índices devuelto. La celda que imprime los conteos usa ese conjunto como conocido, pero la regresión logística usa el primero. Así, entrena con el 90 % en el escenario del 10 % y con el 70 % en el del 30 %.
+**Estado actual.** El notebook separa entrenamiento y prueba en proporción 80/20 con estratificación. Cada escenario guarda las posiciones con etiquetas conocidas en `known` y las ocultas en `unknown`. El resumen y la regresión logística usan el mismo grupo `known`.
 
-**Trabajo del equipo.** Corregir la asignación y comprobar los índices que recibe realmente cada modelo. Si se conservan las 100.000 filas, se reservan 20.000 para prueba y los conteos de entrenamiento deben ser los siguientes.
+Con las 100.000 filas del CSV local, se reservan 20.000 para prueba. Se verificaron los siguientes conteos con las semillas 42, 7 y 123.
 
 | Escenario | Conocidas | Ocultas | Total de entrenamiento |
 |---|---:|---:|---:|
@@ -25,7 +25,7 @@ El objetivo es comparar cuánto cambia el desempeño de regresión logística y 
 
 ## 3. Establecer la referencia supervisada
 
-**Estado actual.** La sección 2.A ensaya tres valores de `C` para regresión logística con cinco pliegues y F1 macro. Usa la semilla 42 y está pendiente la corrección de índices de la etapa 2. La sección de SVM está por desarrollar.
+**Estado actual.** La sección 2.A ensaya tres valores de `C` para regresión logística con cinco pliegues y F1 macro. Usa la semilla 42 y comprueba el tamaño y la alineación de los datos etiquetados antes de la validación cruzada. La sección de SVM está por desarrollar.
 
 **Trabajo del equipo.** En cada escenario, justificar y evaluar al menos tres configuraciones por clasificador mediante validación cruzada sobre las muestras con etiqueta conocida. Registrar la función de pérdida de cada modelo y distinguirla de la métrica empleada para elegir la configuración.
 
