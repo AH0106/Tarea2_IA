@@ -2,7 +2,7 @@
 
 En la rama `main2` se evaluaron dos tareas sobre las mismas canciones: predecir la popularidad (`popularity`) y clasificar el contenido explícito (`explicit`). En ambas tareas, las versiones de **10 y 5 variables** obtuvieron los mejores resultados en validación y pasaron a prueba. Las cinco variables seleccionadas dependen del objetivo.
 
-Este README registra cómo se obtuvieron las tablas del notebook en el commit `99cad99`. [Notebook ejecutado](notebooks/tarea2_p1.ipynb) · [Guía de la Pregunta 1](README_Pregunta1.md)
+Este README registra cómo se obtuvieron las tablas del notebook en el commit `99cad99`. [Notebook ejecutado](notebooks/tarea2_p1.ipynb)
 
 ## Datos y particiones
 
@@ -85,4 +85,4 @@ En JupyterLab, elegir el kernel del entorno y ejecutar **Kernel → Restart Kern
 
 ## Pendiente del equipo
 
-Queda por redactar en el notebook la justificación de las variables y de la métrica elegida, interpretar las tablas de 1.A y 1.B y completar el análisis de generalización de 1.C. La integración de esta copia con la Pregunta 2 corresponde al paso final de coordinación. [Guía de trabajo y entrega](README_Pregunta1.md)
+Queda por redactar en el notebook la justificación de las variables y de la métrica elegida, interpretar las tablas de 1.A y 1.B y completar el análisis de generalización de 1.C. La integración de esta copia con la Pregunta 2 corresponde al paso final de coordinación.
