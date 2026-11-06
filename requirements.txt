@@ -1,35 +1,14 @@
-# Manipulación y Análisis de Datos
+# Datos y visualización
+numpy==2.3.3
+pandas==2.3.2
+matplotlib==3.10.7
+seaborn==0.13.2
 
-numpy>=1.24.0
+# Modelado y descarga opcional de datos
+scikit-learn==1.8.0
+kagglehub==0.3.13
 
-pandas>=2.0.0
-
-scipy>=1.10.0
-
-kagglehub
-
-# Visualización de Datos
-
-matplotlib>=3.7.0
-
-seaborn>=0.12.0
-
-
-
-# Machine Learning y Modelado
-
-scikit-learn>=1.2.0
-
-xgboost>=1.7.0
-
-lightgbm>=3.3.0
-
-
-
-# Entorno Interactivo Jupyter
-
-jupyterlab>=4.0.0
-
-notebook>=7.0.0
-
-ipykernel>=6.20.0
+# Entorno de ejecución de los notebooks
+jupyterlab==4.6.3
+ipykernel==7.2.0
+ipython==9.12.0

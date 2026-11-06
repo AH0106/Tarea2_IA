@@ -1,4 +1,9 @@
 .venv/
 __pycache__/
 .ipynb_checkpoints/
-data/raw/*.csv
+
+# Copias locales y CSV descargados aparte de los dos datasets de la tarea
+/data/raw/*.csv
+/notebooks/data/raw/*.csv
+!/notebooks/data/raw/spotify-tracks-dataset-detailed.csv
+!/notebooks/data/raw/star_classification.csv
