@@ -18,7 +18,7 @@ seaborn>=0.12.0
 
 # Machine Learning y Modelado
 
-scikit-learn>=1.2.0
+scikit-learn>=1.4.0
 
 xgboost>=1.7.0
 
