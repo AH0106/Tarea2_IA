@@ -1,0 +1,12 @@
+# Entorno reproducible para notebooks/P1_ HVA.ipynb con Python 3.10.
+# Instalar en un entorno creado con: python3.10 -m venv .venv
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.14.1
+matplotlib==3.9.4
+scikit-learn==1.7.2
+ipython==8.37.0
+ipykernel==6.29.5
+nbformat==5.10.4
+nbclient==0.10.2
+kagglehub==0.3.13
